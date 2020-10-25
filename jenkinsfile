@@ -16,10 +16,5 @@ pipeline {
               echo 'deploy app'
           }
       }
-            stage("deploy") {
-          steps {
-              javac hello_java.java
-          }
-      }
   }
 }
