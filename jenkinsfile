@@ -1,19 +1,9 @@
 pipeline {
-  agwnt any
+  agent any
   stages {
-      stage("build") {
+      stage("test") {
           steps {
               echo 'bulding app'
-          }
-      }
-            stage("test") {
-          steps {
-              echo 'testing app'
-          }
-      }
-            stage("deploy") {
-          steps {
-              echo 'deploy app'
           }
       }
   }
