@@ -4,6 +4,7 @@ pipeline {
       stage("build") {
           steps {
               sh 'echo bulding app'
+              sh 'second '
           }
       }
       stage("test") {
